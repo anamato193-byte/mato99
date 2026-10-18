@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">حارس التطبيقات الذكي</string>
+    <string name="accessibility_service_description">يسمح لحارس التطبيقات بقفل كافة التطبيقات غير المسموح بها وحماية التطبيق من الحذف إلا بالبصمة.</string>
+    <string name="device_admin_description">يمنع أي شخص من حذف تطبيق حارس التطبيقات الذكي إلا بعد التحقق من بصمة المالك.</string>
+</resources>
