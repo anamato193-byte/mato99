@@ -19,11 +19,10 @@ jobs:
         distribution: 'temurin'
         java-version: '17'
 
-    - name: Generate Gradle Wrapper
-      run: gradle wrapper --gradle-version 8.0
-
-    - name: Grant execute permission for gradlew
-      run: chmod +x gradlew
+    - name: Use Gradle 8.5
+      uses: gradle/actions/setup-gradle@v3
+      with:
+        gradle-version: '8.5'
 
     - name: Build APK with Gradle
       run: ./gradlew assembleDebug --no-daemon
